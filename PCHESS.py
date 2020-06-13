@@ -102,9 +102,9 @@ def play1():
         elif res1=="F":
           board[move2+1][move1]=player
           board[move2][move1]=0 
-        else:
-          print("INVALID MOVE")
-          play1()
+      else:
+        print("INVALID MOVE")
+        play1()
   
 
   player=1
@@ -215,9 +215,9 @@ def play2():
         elif res1=="F":
           board[move2-1][move1]=player
           board[move2][move1]=0 
-        else:
-          print("INVALID MOVE")
-          play2()
+      else:
+        print("INVALID MOVE")
+        play2()
 
   
 
